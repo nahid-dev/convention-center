@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* ======================= Re-Usable style */
+section{
+    padding: 100px 0;
+}
+.h3-heading{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+    color: #0A0826;
+    margin-bottom: 6.25rem;
+    text-align: center;
+}
+/* Start Header Nav Section */
+.navbar .navbar-brand{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    font-feature-settings: 'liga' off;
+    color: #3E3E3E;
+}
+.navbar .nav-item{
+    margin-left: 26px;
+}
+.navbar .nav-item .nav-link{
+    padding-left: 0;
+    padding-right: 0;
+    color: #3E3E3E;
+    line-height: 24px;
+    font-weight: 500;
+}
+/* ============= Start Carousel Slider */
+.carousel-item h5{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+}
+.carousel-item p{
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 16px;
+}
+.carousel-item a.btn{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #3F87F5;
+    background-color: #fff;
+    padding: 10px 43px;
+}
+/* ============= Start Moment Section */
+.moment-img img{
+    width: 100%;
+}
+.moment-content h2{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+    margin: 0;
+    margin-bottom: 6px;
+}
+.moment-content p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin-bottom: 20px;
+}
+.moment-content button{
+    background: #3F87F5;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    padding: 10px 24px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .navbar-toggler:focus {
+        box-shadow: none;
+        border: none;
+    }
+    .carousel-item{
+        height: 586px;
+    }
+    .carousel-item img{
+        height: 100%;
+    }
+    .carousel-item h5{
+    font-size: 24px;
+    line-height: 36px;
+    }
+    .carousel-item p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
