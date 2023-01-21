@@ -10,7 +10,7 @@ body{
 }
 /* ======================= Re-Usable style */
 section{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .h3-heading{
     font-weight: 600;
@@ -85,9 +85,162 @@ section{
     border: none;
     padding: 10px 24px;
 }
-
-
-
+/* ============= Start Package Section */
+.package{
+    padding-right: 4rem;
+}
+.package h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #231D4F;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.package .package-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #231D4F;
+    margin-bottom: 15px;
+}
+.package span{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+}
+.package .package-details{
+    margin-top: 20px;
+}
+.package .package-details p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+}
+.package button{
+    color: #3F87F5;
+    background: #fef5fa;
+    border-radius: 24px;
+    padding: 13px 60px;
+    border: none;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.package.hot-package{
+    background: #3F87F5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+    padding: 50px 30px;
+    margin-top: -6rem;
+    position: relative;
+}
+.package.hot-package h4, .package.hot-package span, .package.hot-package .package-details p, .package.hot-package .package-title {
+    color: #fff;
+}
+.package.hot-package .hot-tag{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.833333px;
+    color: #FFFFFF;
+    padding: 6px 12px;
+    background: #FF4E4E;
+    border-radius: 13.5px;
+    position: absolute;
+    top: -15px;
+    right: 20px;
+}
+/* ============= Start Clients Section */
+.card-person{
+    padding: 20px 70px;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+}
+.card-person .card-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #6C6C6C;
+}
+.card-person .card-title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #0C1920;
+    margin-top: 15px;
+}
+.card-person .card-tag{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #747474;
+}
+/* ============= Start FAQ Section */
+.accordion-item{
+    margin-bottom: 20px;
+}
+.accordion-button:focus {
+	box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    font-family: 'Inter';
+	background-color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #383838;
+}
+.accordion-item .accordion-button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #383838;
+}
+.accordion-item .accordion-body{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7E848C;
+}
+/* ============= Start Footer Section */
+footer{
+    padding: 55px 0 80px 0;
+    background-color: #0B0D17;
+    color: #fff;
+}
+.footer-copyright p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+}
+.footer-app p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #D9DBE1;
+    margin: 0;
+    margin-right: 2rem;
+}
 
 
 
@@ -113,5 +266,8 @@ section{
     .carousel-item p{
         font-size: 16px;
         line-height: 24px;
+    }
+    footer .row{
+        flex-direction: column-reverse;
     }
 }
